@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/loAlertHeader"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_title_rounder"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tvAlertTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="32dp"
+        android:gravity="center"
+        android:textColor="#1A1A1A"
+        android:textSize="@dimen/textSize_alert_title"
+        android:visibility="visible" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/bg_title_rounder"
+        android:id="@+id/ll_content"
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:id="@+id/alert_cry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textColor="#991a1a1a"
+            android:layout_marginLeft="20dp"
+            android:visibility="gone"
+             />
+
+        <TextView
+            android:id="@+id/tvAlertMsg"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#991a1a1a"
+            android:layout_weight="1"
+            android:lineSpacingExtra="3dp"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+</LinearLayout>

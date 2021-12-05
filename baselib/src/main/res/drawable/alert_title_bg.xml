@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="-1dp" android:right="-1dp" android:top="-1dp" >
+
+        <shape>
+
+            <stroke android:width="0.5dp" android:color="#dcdcdc">  </stroke>
+            <solid android:color="@color/bgColor_alertview_alert"></solid>
+            <corners android:topRightRadius="@dimen/radius_alertview" android:topLeftRadius="@dimen/radius_alertview"/>
+        </shape>
+
+
+
+    </item>
+
+</layer-list>

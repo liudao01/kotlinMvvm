@@ -1,0 +1,39 @@
+//统一的管理
+
+//扩展块
+
+ext {
+
+    //建立 map存储  key和value 是自定义的
+    androidID = [
+            compileSdkVersion        : 31,
+            ndkVersion               : '21.3.6528147',
+
+            applicationId            : "com.sinochem.www.car.owner",
+            minSdkVersion            : 21,
+            targetSdkVersion         : 31,
+            versionCode              : 1,
+            versionName              : "1.0.0",
+            testInstrumentationRunner: "androidx.test.runner.AndroidJUnitRunner",
+
+    ]
+
+    //AppID
+    appID = [
+            app: "com.sinochem.www.car.owner",
+    ]
+
+
+
+    //引用的map 存储
+    dependenciesID = [
+
+//            recyclerview : 'androidx.recyclerview:recyclerview:1.1.0',
+
+//    implementation project(':framelib')
+//    api project(':androidlib')
+
+//            api 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.50'
+            //更新 版本
+    ]
+}
